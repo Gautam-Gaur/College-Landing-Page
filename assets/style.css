@@ -1,0 +1,61 @@
+:root{
+  --black:rgba(0, 0, 0, 0.747);
+  --lightgray:rgba(126, 122, 122, 0.178);
+  --transparent:rgba(0, 0, 0, 0);
+  --white:white;
+  --darkblue:rgba(0, 9, 111, 0.68);
+  --gray:rgba(230, 230, 250, 0.833);
+}
+
+html,body
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#form {
+    background-color: var(--black);
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: var(--white);
+    height: fit-content;
+    margin-top: 2%;
+  }
+
+  #home
+  {
+    background-color:var(--lightgray);
+  }
+
+  #universityInfo ul
+  {
+    list-style-type: none;
+  }
+
+  .student:hover
+  {
+    background-color:var(--lightgray);
+  }
+
+  .student > .card{
+    border: none;
+    background-color: var(--transparent);
+  }
+
+  #courses
+  {
+    color: var(--white);
+    background-color: var(--darkblue);
+  }
+
+  .socialmedia
+  {
+    border-radius: 10%;
+    background-color: var(--white)
+  }
+
+  .socialmedia:hover
+  {
+    background-color: var(--gray);
+  }
